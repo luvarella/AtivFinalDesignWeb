@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 4em;    
+}
+
+header ol{
+    list-style-type: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+    
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: #FF007A;
+}
+
+h1 img{
+    padding: 1em;
+}
+
+h2{
+    margin: 3em;
+    font-size: 50px;
+    text-align: center;
+}
+
+video{
+    width: 100%;
+}
+
+/*.anoesquerda{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+ .anoesquerda > p{
+    width: 14em;
+ }
+
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    width: 25em;
+    background-color: brown;
+}
+
+.img figure{
+    margin-left: 10px;
+    font-display: flex;
+}
+
+p{
+    
+
+}
+.anodireita{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    flex-wrap: nowrap;
+    margin-left: 2em;
+}
+
+section{
+    background-color: aqua;
+    width: 82em;
+    padding-left: -19px;
+    margin: -76px auto;
+}*/ 
+
+section{
+    width: 80em;
+    margin: 0 auto;
+}
+
+.anoesquerda{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8em;
+}
+
+.anoesquerda p{
+    font-size: 237px;
+    margin-top: 16px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 47px;
+}
+
+
+.img16{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+}
+
+.img16 figure{
+    margin-left: 10px;
+}
+
+.anoesquerda div{
+    padding-bottom: 2em;
+    border-top: 1px solid black;
+    padding-top: 2em;
+}
+
+.anodireita{
+    display: flex;
+    justify-content: space-between;
+    /* width: 70em; */
+    margin-bottom: 6em
+}
+
+.img17{
+    display: flex;
+    flex-wrap: wrap;
+    width: 38em;
+    border-bottom: z;
+    border-top: 100;
+    border-top: 1px solid black;
+    padding-top: 3em;
+}
+
+.img17 figure{
+    margin-left: 41px;
+}
+
+.anodireita p{
+    font-size: 237px;
+    margin-top: 16px;
+    margin-right: 0.5em;
+    margin-top: 0em;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-right: 22px;
+}
+
+.img18{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img18 figure{
+    margin-left: 10px;
+    padding-left: 4em;
+    padding-bottom: 2em;
+}
+
+#a18{
+    padding-top: 0.5em;
+}
+
+#a16{
+    padding-top: 0.5em;
+}
+
+.img19 figure{
+    border-left: 1px solid black;
+    padding-left: 65px;
+}
+
+.img20{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img20 figure{
+    margin-right: 2.5em;
+}
+
+.img21{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img21 figure{
+    margin-left: 2.5em;
+}
+
+.img22{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img22 figure{
+    margin-right: 2.5em;
+}
+
+footer{
+    text-align: center;
+    position: center;
+    padding: 4em;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+footer figure{
+    padding: 8px;
+}
+
+footer p{
+    font-family:'Quattrocento Sans', sans-serif;
+}
+

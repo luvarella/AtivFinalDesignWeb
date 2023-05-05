@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /*margin-bottom: 4em;    */
+}
+
+header ol{
+    list-style-type: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: #FF007A;
+}
+
+h1 img{
+    padding: 1em;
+}
+
+video{
+    width: 100%;
+}
+
+main{
+    text-align: center;
+}
+
+#card{
+    margin: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#card div:hover{
+    transform: /*rotate(40deg)*/ scale(1.1, 1.1);
+    transition-duration: 1s;
+}
+
+.membros1{
+    margin: 4em;
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.membros2{
+    margin: 4em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.membros3{
+    margin: 4em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+#contato{
+    margin-top: 6em;
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+
+#contato form div{
+    margin-bottom: 2em;
+}
+
+h4{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    margin-bottom: 2em;
+}
+
+form{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+}
+
+form input{
+    padding: 1em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+form textarea{
+    border-bottom: 1px solid black;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#enviar input{
+    margin: 3em;
+    background-color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    border: 1px solid black;
+}
+
+#enviar input:hover{
+    font-style: bold;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    position: center;
+    padding: 4em;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+footer figure{
+    padding: 8px;
+}
+
+footer p{
+    font-family:'Quattrocento Sans', sans-serif;
+}
+
+script{
+    background-image: ("img/barrinhas.png");
+}
+
+div#menusand{
+    visibility: hidden;
+    position: absolute;
+    right: 3em;
+    
+}
+div#menusand img{
+    visibility: hidden;
+    text-align: right;
+}
+
+@media screen and (max-width: 500px){
+
+    nav{
+        visibility: hidden;
+        background-color: white;
+        margin-right: 10em;
+        margin-top: 12em;
+        border: 1px solid black;
+    }
+
+    div#menusand{
+        visibility: visible;
+    }
+
+    div#menusand img{
+        visibility: visible;
+        height: 50px;
+    }
+
+    header a{
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    header li{
+        display: block;
+        text-align: left;
+    }
+    
+
+}

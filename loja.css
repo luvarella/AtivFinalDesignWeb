@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /*margin-bottom: 4em;    */
+}
+
+header ol{
+    list-style-type: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: #FF007A;
+}
+
+h1 img{
+    padding: 1em;
+}
+
+article img{
+    width: 100%;
+}
+
+h2{
+    margin: 0 auto;
+    text-align: center;
+    margin: 2em;
+    font-size: 40px;
+}
+
+.destaque{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80em;
+    margin-bottom: 6em;
+}
+
+.destaque div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2em;
+}
+
+.destaque figure{
+    padding-left: 1em;
+}
+
+#filtro{
+    display: flex;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+
+#filtro p{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 72em;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.produtos figure{
+    padding-bottom: 2em;
+}
+
+.produtos img{
+    width: 200px;
+}
+
+#seta{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    position: center;
+    padding: 4em;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+footer figure{
+    padding: 8px;
+}
+
+footer p{
+    font-family:'Quattrocento Sans', sans-serif;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href ="main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loonatheworld</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script>
+        function abrir(){
+    if (document.getElementById('menu').style.visibility == 'visible'){
+    document.getElementById('menu').style.visibility = 'hidden';}
+    else 
+    document.getElementById('menu').style.visibility = 'visible';
+}
+function fechar(){
+    document.getElementById('respon').style.visibility = 'hidden';
+    document.getElementById('sair').style.visibility = 'hidden';
+}
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href = "index.html"><img src = "img/icon/logo.png"/></h1></a>
+        <div id = "menusand" onclick="abrir()">
+            <img src = "img/icon/iconmobile.png"/>
+          </div>
+        <nav id = "menu">
+            <ol>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "bio.html">BIOGRAFIA</a></li>
+                <li><a href = "disco.html">DISCOGRAFIA</a></li>
+                <li><a href = "loja.html">LOJA</a></li>
+                <li><a href = "x.html"><img src = "img/icon/carrinho.png"/></a></li>
+                <li><a href = "x.html"><img src = "img/icon/modon.png"/></a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <video autoplay loop muted poster="img/loona/loonaot12.png" class = "bg_video">
+                <source src="video/mp4/loonaflipthat.mp4" type="video/mp4">
+                <source src="video/webm/loonaflipthat.webm" type="video/webm">
+                <object>
+                  <embed src="flipthat.mp4" type="application/x-shockwave-flash" 
+                  allowfullscreen="false" allowscriptaccess="always">  		
+                </object>
+            </video> 
+        </article>
+        <section id = "card">
+            <div>
+                <figure>
+                <a href = "https://open.spotify.com/artist/52zMTJCKluDlFwMQWmccY7?si=cTAHjYsmRi6JuIi43gG0AQ"><img src = "img/loona/chuucard.png"/></a>                    
+                </figure>
+            </div>
+            <div>
+                <figure>
+                <a href = "https://deezer.page.link/FnmPfPp8mPj4oPFV6"><img src = "img/loona/yeojincard.png"/></a>                    
+                </figure>
+            </div>
+            <div>
+                <a href = ""><img src = "img/loona/haseulcard.png"/></a>
+            </div>
+        </section>
+        <section class = "membros1">
+            <div>
+            <figure>
+                <img src ="img/loona/heejin.png"/>
+            </figure>
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/hyujin.png"/>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/haseul.png"/>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/yeojin.png"/>
+                </figure>
+            </div>
+        </section>
+        <section class = "membros2">
+            <div>
+                <figure>
+                <img src ="img/loona/vivi.png"/>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/kimlip.png"/>
+                </figure>   
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/jinsoul.png"/>
+                </figure>   
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/choerry.png"/>
+                </figure>    
+            </div>
+        </section>
+        <section class = "membros3">
+            <div>
+                <figure>
+                <img src ="img/loona/yves.png"/>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/chuu.png"/>
+                </figure>    
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/gowon.png"/>
+                </figure>    
+            </div>
+            <div>
+                <figure>
+                <img src ="img/loona/oliviahye.png"/>
+                </figure>    
+            </div>
+        </section>
+        <section id = "contato">
+            <div class = "titulo">
+            <h2>CONTATO</h2>
+            <figure><img src = "img/icon/contato.png"/></a></figure>
+            </div>
+            <h4>HÁ ALGUMA DÚVIDA? ESTAMOS AQUI!</h4>
+            <form>
+            <div>
+                <label for="nome">NOME:</label>
+                <input type="text" id="nome" />
+            </div>
+            <div>
+                <label for="email">E-MAIL:</label>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="tel">TELEFONE:</label>
+                <input type="tel" id="tel" />
+            </div>
+            <div>
+                <label for="msg">MENSAGEM:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <p>*SUA DÚVIDA SERÁ RESPONDIDA DENTRO DE 24 HORAS.</p>
+            <div id = "enviar">
+                <input type="submit" value="Enviar">
+            </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>           
+            <figure>
+                <a href = "https://open.spotify.com/artist/52zMTJCKluDlFwMQWmccY7?si=cTAHjYsmRi6JuIi43gG0AQ"><img src ="img/icon/spotify.png"/></a>
+            </figure>
+            <figure>
+                <a href = "https://deezer.page.link/FnmPfPp8mPj4oPFV6"><img src ="img/icon/deezer.png"/></a>
+            </figure>
+            <figure>
+                <a href = "https://www.youtube.com/@loonatheworld/featured"><img src ="img/icon/yt.png"/></a>
+            </figure>
+            <figure>
+                <a href = "https://www.instagram.com/loonatheworld/"><img src ="img/icon/ig.png"/></a>
+            </figure>
+            <figure>
+                <a href = "https://twitter.com/loonatheworld"><img src ="img/icon/twt.png"/></a>
+            </figure>
+        </nav>
+        <p>©Luiza Varella Góis todos os direitos (não) reservados</p>
+    </footer>
+</body>
+</html>
